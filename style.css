@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    min-width: 320px;
+    min-height: auto;
+
+    position: relative;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #111;
+
+    color: #ccc;
+    font-size: 14px;
+}
+
+.nav__ul {
+    width: 65%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__ul2 {
+    width: 20%;
+    height: inherit;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    line-height: 40px;
+}
+
+.lumen {
+    width: 100%;
+    height: 55vh;
+    padding: 20px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-image: url(https://hyperpc.ru/images/product/lumen/esports/lumen_standard/description/hyperpc-lumen-3-cybersport-edition-block-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lumen__block {
+    width: 30%;
+    height: 80%;
+    padding: 15px;
+    margin-left: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+
+    color: #fff;
+}
+
+.lumen__block p {
+    font-size: 18px;
+    font-weight: 700;
+
+    color: #ccc;
+}
+
+.lumen__block button {
+    width: 150px;
+    height: 50px;
+
+    border: none;
+    border-radius: 3px;
+
+    background-color: #f51616;
+
+    font-size: 18px;
+    color: #fff;
+}
+
+.sect__panel {
+    width: 100%;
+    height: 120px;
+
+    background-color: #171717;
+}
+
+.sect__panel ul {
+    width: 65%;
+    height: inherit;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sect__panel ul li {
+    font-size: 18px;
+    color: grey;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    line-height: 2;
+}
+
+.config__section {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+
+    background-color: #111;
+}
+
+.config__div {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+
+    color: #fff;
+    font-size: 18px;
+
+    text-align: center;
+    line-height: 2;
+}
+
+.config__div button {
+    width: 180px;
+    height: 40px;
+    margin-top: 30px;
+
+    border: none;
+    border-radius: 3px;
+
+    background-color: #f51616;
+
+    color: #fff;
+    font-size: 15px;
+}
+
+.config__ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.config__li {
+    color: #fff;
+    
+    text-align: center;
+    line-height: 1.5;
+}
+
+.config__li p {
+    margin-top: 8px;
+
+    color: grey;
+}
+
+.config__li button {
+    width: 170px;
+    height: 40px;
+    margin: 20px 0;
+
+    border: none;
+    border-radius: 2px;
+
+    background-color: #f51616;
+
+    color: #fff;
+    font-size: 16px;
+}
+
+.models {
+    width: 100%;
+    padding-top: 70px;
+
+    border-top: 2px solid grey;
+
+    background-color: #111;
+}
+
+.models__title {
+    color: #fff;
+
+    text-align: center;
+    line-height: 2.2;
+}
+
+.models__title h3 {
+    font-size: 20px;
+}
+
+.models__title a {
+    text-decoration: underline red;
+
+    color: red;
+    font-size: 18px;
+}
+
+.models__items {
+    margin-top: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    color: #ccc;
+    font-size: 17px;
+}
+
+.models__item {
+    width: 28%;
+    margin: 40px 0;
+}
+
+.models__item p:first-child {
+    float: right;
+}
+
+.mod__bests {
+    width: 100px;
+    height: 23px;
+
+    border-radius: 2px;
+
+    background-color: orange;
+
+    color: #fff;
+
+    text-align: center;
+    line-height: 23px;
+}
+
+.mod__ex {
+    width: 100px;
+    height: 23px;
+
+    border: 1px solid #ccc;
+    border-radius: 2px;
+
+    background-color: inherit;
+
+    color: #ccc;
+
+    text-align: center;
+    line-height: 22px;
+}
+
+.mod__new {
+    width: 100px;
+    height: 23px;
+
+    border-radius: 2px;
+
+    background-color: rgb(21, 182, 21);
+
+    color: #fff;
+
+    text-align: center;
+
+    line-height: 23px;
+}
+
+.models__item h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.models__item a {
+    display: block;
+
+    color: grey;
+
+    text-decoration: none;
+}
+
+.models__p {
+    margin-bottom: 12px;
+
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
